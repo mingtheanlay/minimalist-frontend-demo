@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .hero-section {
-  background-image: url(./tumblr_pj6zm9x6Dp1sd9evfo1_1280.jpeg);
+  background-image: url(./img/tumblr_pj6zm9x6Dp1sd9evfo1_1280.jpeg);
   height: 70rem;
   background-position: center;
   background-size: cover;
@@ -72,7 +72,8 @@ nav ul li a:hover {
   padding-top: 20rem;
 }
 
-.hero-section button {
+.hero-section button,
+form button {
   font-family: "Fira Code", monospace;
   padding: 1rem 4rem;
   margin-top: 4rem;
@@ -83,8 +84,49 @@ nav ul li a:hover {
   color: white;
 }
 
-.hero-section button:hover {
-  background-color: rgb(255, 255, 255);
-  color: black;
+.hero-section button:hover,
+form button:hover {
+  background-color: rgb(119, 119, 119);
   cursor: pointer;
+}
+
+.contact-section {
+  background-image: url(./img/4863428.jpg);
+  max-height: 80rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact-section form {
+  padding: 5rem 0rem;
+}
+
+form label {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+form input,
+form label,
+form textarea,
+form button {
+  display: block;
+}
+
+form button {
+  margin: 2rem auto;
+}
+
+form input,
+form textarea {
+  font-family: "Fira Code", monospace;
+  margin: 1.5rem auto;
+  font-size: 3rem;
+  border-radius: 2rem;
+  border: solid black 2px;
+}
+
+form input {
+  width: 40rem;
 }
