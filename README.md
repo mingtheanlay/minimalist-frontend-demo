@@ -6,4 +6,4 @@ minimalist frontend demo is created to show the use of css and html minimalistic
 
 **important note:** this was created for sampling only. feel free to make the contribution.
 
-**live demo:** https://mingtheanlay.github.io/minimalist-frontend-demo.github.io/
+**live demo:** https://mingtheanlay.github.io/minimalist-frontend-demo
